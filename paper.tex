@@ -1,0 +1,55 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1
+.tif`.png}
+
+\begin{document}
+\title{Cool Stuff We Found in Dunwich}
+
+\author{\IEEEauthorblockN{Dr.~Francis Morgan}
+\IEEEauthorblockA{Dept. of Archaeology\\
+Miskatonic University\\
+Email: foo@example.com}
+\and
+\IEEEauthorblockN{Dr.~Henry Armitage}
+\IEEEauthorblockA{Dept. of Library Science\\
+Miskatonic University\\
+Email: bar@example.com}}
+
+\maketitle
+
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetuer adipiscing \cite{foo-bar-86} elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum accumsan nisl.
+\end{abstract}
+
+\section{Introduction}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum accumsan nis.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.25]{images/pop3.png}
+  \caption{Ancient horrors manifesting through the POP3 protocol.}
+  \label{fig:how_pop3_works}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum accumsan nis.
+
+\section{Related Work}
+
+\section{Design}
+
+\section{Evaluation}
+
+\section{Conclusion}
+
+\nocite{*} % Include everything in the .bib file.
+
+\bibliographystyle{IEEEtran}
+\bibliography{paper}
+
+% that's all, folks
+\end{document}

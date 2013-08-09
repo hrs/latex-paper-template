@@ -1,0 +1,8 @@
+*.aux
+*.bbl
+*.blg
+/*.dvi
+*.fdb_latexmk
+*.log
+/*.pdf
+missfont.log
