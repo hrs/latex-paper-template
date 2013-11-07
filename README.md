@@ -40,3 +40,7 @@ However, if you're interesting in learning to use the IEEEtran class, you'll pro
 ### "This is stupid, why don't you just..." ###
 
 Nah, I like my setup. Shush.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hrs/latex-paper-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
