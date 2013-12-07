@@ -16,9 +16,9 @@ You'll need:
 
 ### Installation ###
 
-`git clone https://github.com/hrs/latex-template.git YOUR_PROJECT_NAME`
+`git clone https://github.com/hrs/latex-paper-template.git YOUR_PROJECT_NAME`
 
-I've creatively named the default project `paper`. If you want to change that, rename the `paper.tex` and `paper.bib` files, then change the value of the `project` variable in the `Makefile`.
+I've creatively named the default project `paper`. If you want to change that, rename the `paper.tex` and `paper.bib` files, fix the bibliography reference in `paper.tex`, and change the value of the `project` variable in the `Makefile`.
 
 ### Usage ###
 
@@ -41,6 +41,4 @@ However, if you're interesting in learning to use the IEEEtran class, you'll pro
 
 Nah, I like my setup. Shush.
 
-
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hrs/latex-paper-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
